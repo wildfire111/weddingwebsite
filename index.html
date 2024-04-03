@@ -1,0 +1,297 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Michael & Holly are getting married!</title>
+    <meta name="description" content="We would like to invite you to our big day.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Michael & Holly are getting married!">
+    <meta property="og:description" content="We would like to invite you to our big day.">
+    <meta property="og:image" content="img/hero-min.jpg">
+    <meta property="og:type" content="website">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=Playfair:wght@800&display=swap" rel="stylesheet">
+
+    <script>
+        // load css files from CDN if local node_modules fail
+        function loadCssFromCDN(css) {
+            // create new link tag
+            const link = document.createElement('link');
+            if (css === 'animate.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css';
+            } else if (css === 'font-awesome.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+            }
+            link.rel = 'stylesheet';
+
+            // add link tag to head section
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+
+        // load js files from CDN if local node_modules fail
+        function loadJsFromCDN(js) {
+            if (js === 'waypoints.js') {
+                document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>');
+            } else if (js === 'jquery.js') {
+                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" onerror="loadCssFromCDN('animate.css')">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" onerror="loadCssFromCDN('font-awesome.css')">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="top">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<section class="hero">
+    <section class="navigation">
+        <header>
+            <div class="header-content">
+                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+                <div class="header-nav">
+                    <nav>
+                        <ul class="primary-nav">
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#eng-pics">Engagement</a></li>
+                            <li class="hidden-sm hidden-xs"><a href="#video-bg">The Area</a></li>
+                        </ul>
+                        <ul class="member-actions">
+                            <li><a href="#map" class="login">Venue</a></li>
+                            <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="navicon">
+                    <a class="nav-toggle" href="#"><span></span></a>
+                </div>
+            </div>
+        </header>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="hero-content text-center">
+                    <!--<h1>Michael & Holly</h1>-->
+                    <img src="img/logo-lg.png">
+                    <!--<p class="intro">Michael & Holly are getting married!</p>-->
+                    <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 hidden-xs"></div>
+            <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
+                                                           class="btn btn-accent btn-large rsvp-btn main-rsvp-btn">RSVP</a></div>
+            <div class="col-sm-4 hidden-xs"></div>
+        </div>
+    </div>
+    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
+</section>
+
+<section id="invitation" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>We are getting married!</h3>
+                <p>The date is September 8<sup>th</sup> 2023 and we are so excited to spend it with you!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="events section-padding" id="events">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="header">Events</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                <div class="wp3">
+                    <p><strong>September 8</strong></p>
+
+                    <h5>Ceremony <span class="time">4PM - 5PM</span></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="wp5">
+                    <h5>Dinner & Reception <span class="time">7PM - 10.30PM</span></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                <div class="wp4">
+                    <p></p>
+                    <p></p>
+                    <h5>Afternoon Cocktails <span class="time">5PM - 7PM</span></h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            
+            <div class="wp6">
+                <p><strong>September 9</strong></p>
+                <h5>Brunch <span class="time">11AM - 1PM</span></h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        </div>
+        <div class="row section-padding">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
+                    <i class="fa fa-barcode"></i>&nbsp;&nbsp;Dress code
+                </a>
+            </div>
+        </div>
+        <!--<div class="row">
+            <div class="col-xs-12 section-border section-padding">
+            </div>
+        </div>-->
+    </div>
+
+<section id="video-bg" class="hidden-sm hidden-xs">
+    <div id="bgndVideo" class="player"
+         data-property="{videoURL:'https://youtu.be/RwaQ5i5VcMQ',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:0, stopAt:29, opacity:1}">
+    </div>
+    <div id="video-content">
+        <h5>Rutherglen</h5>
+    </div>
+</section>
+
+<section id="map" class="section-padding">
+    <div class="text-center">
+        <h3>Where is the venue?</h3>
+        <p>Our Ceremony and reception will be held at Olive Hills Estate</p>
+    </div>
+    <div id="map-canvas"></div>
+    <div id="map-content-wrapper" class="container pointer-events-none">
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+                <div class="text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10417.338173058972!2d146.5747782539673!3d-36.044354399999975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b21478141206509%3A0xdd687a83396d08ed!2sOlive%20Hills%20Estate!5e1!3m2!1sen!2sau!4v1685950159527!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="rsvp text-center" id="rsvp">
+
+    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Thank you!</h3>
+                        <p>We are glad to see you join us on our big day.</p>
+                        <div id="add-to-cal"></div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h3>What are you waiting for?</h3>
+                <p>We would greatly appreciate if you could RSVP before SET DATE HERE</p>
+                <form id="rsvp-form" class="rsvp-form"
+                      action="https://script.google.com/macros/s/AKfycbx8MfwOg5GSNLWwMAoSqLD7wCiqlvCrtGmn6LSrua2XOwt0tuNAe5u-W8WU0fUn0WsR9w/exec"
+                      method="POST">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                                                     placeholder="Your email"
+                                                                     required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="name" class=""
+                                                                 placeholder="Your name"
+                                                                 required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-users"></i><input name="partnername" class=""
+                                                                placeholder="Partner's name if coming"
+                                                                >
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
+                                                                class="" min="0"
+                                                                placeholder="Invite code"
+                                                                required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="alert-wrapper"></div>
+                    </div>
+                    <button class="btn-fill rsvp-btn">
+                        Yes,
+                        that's me!
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center content">
+                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
+                <p>For Holly <span class="fa fa-heart pulse2"></span></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/vendor/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
+<script src="node_modules/waypoints/lib/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script src="js/vendor/ouical.js"></script>
+<script src="js/scripts.min.js"></script>
+</body>
+</html>
